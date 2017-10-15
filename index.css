@@ -1,3 +1,42 @@
+html {
+    font-family: 'Shadows Into Light', cursive;
+font-family: 'Amatic SC', cursive;
+background-color: rgb(240, 239, 244)
+
+}
+
 h1 {
     color:purple;
+}
+.pomodoro-estimate {
+    font-weight: bold;
+    font-family: 'Shadows Into Light', cursive;
+    color: purple;
+    background-color:rgb(215, 218, 224);
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 2px 10px 2px 5px;
+}
+#add-new-todo-button {
+    color:rgb(113, 44, 186);
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(201, 181, 221);
+    border-radius: 10px
+}
+#add-new-todo-button:hover {
+    background-color: rgb(54, 36, 145);
+    color:rgb(231, 230, 239);
+    
+}
+li:hover {
+    background-color: rgb(231, 230, 239)
+}
+ul {
+    background-color: white;
+    border-radius: 20px
+}
+.completed-todo {
+    text-decoration: line-through
 }
