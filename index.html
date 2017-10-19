@@ -1,9 +1,14 @@
 <html>
     <style type="text/css">
-        #white {
-            color:white;
-        }
-    </style>
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5000;
+}
+</style>
     <head>
         <title>Todo List Application</title>
         <link rel="stylesheet" href="index.css">
@@ -18,11 +23,17 @@
         </h1>
         <ul>   
             <li id="white"><a href="show.html"><input type="checkbox">Make the curriculum<span class= "pomodoro-estimate"> 4 pomodoros</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Buy workshop supplies<span class= "pomodoro-estimate"> 3 pomodoros</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Meet with the volunteer trainers<span class= "pomodoro-estimate"> 2 pomodoros</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Order food for Saturday and Sunday<span class= "pomodoro-estimate"> 1 pomodoro</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Check pre-work assignments<span class= "pomodoro-estimate"> 2 pomodoros</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Send workshop location to all the students<span class= "pomodoro-estimate"> 1 pomodoro</span></a></li>
+            <br>
             <li id="white"><a href="show.html"><input type="checkbox">Have a great workshop<span class= "pomodoro-estimate"> 0 pomodoros</span></a></li>
         </ul>
         <input type="text" name="name" placeholder="Todo">
@@ -37,5 +48,6 @@
     })
   })
         </script>
+        <div align="center"><img src="http://www.wallpapers4u.org/wp-content/uploads/glare_background_blur_dark_63553_1920x1080.jpg" class="bg"></div>
     </body>    
 </html>

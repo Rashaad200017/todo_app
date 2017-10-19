@@ -33,10 +33,10 @@ h1 {
     
 }
 li:hover {
-    background-color: gray
+    background-color: white
 }
 ul {
-    background-color: transparent;
+    background-color: white;
      text-align: center;
     border-radius: 20px;
     font-size: 40px;
@@ -52,6 +52,11 @@ li {
     color: rgb(211, 228, 255);
     
 }
-body {
-    background-image: url(http://i.imgur.com/3YD3cZ5.jpg)
+.bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -5000;
 }
