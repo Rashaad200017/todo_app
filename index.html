@@ -22,9 +22,9 @@
 
     </head>
 
-    <body>  
 
-        <h1>
+    <body> 
+     <h1>
 
             <img class="company logo" src="https://public.3.basecamp.com/p/iahgNshn1oKq98sWGf1q89Vo/uploads/511042491/download/CodeNow%20Logo.png" width="400"></img><br>Workshop Todo List
 
@@ -67,22 +67,14 @@
         <input id="add-new-todo-button" type="submit" value="Add Task" name="name">
 
         <script>
-
             $(document).ready(function(){
-
-            
-
     //Strike through todo when its checkbox is clicked
-
     $("ul").on("click", "input[type=checkbox]", function(){
-
       $(this).closest("li").toggleClass("completed-todo")  
-
     })
-
   })
-
         </script>
+
 
     </body>    
 
